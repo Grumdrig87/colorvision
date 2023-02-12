@@ -1,0 +1,351 @@
+/* ---FONTS--- */
+
+
+/* ------------------- */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	background: #000000;
+	color: #E2E2E2;
+}
+
+body.open {
+	overflow-y: hidden;
+}
+.wrap {
+	max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+li {
+	display: block;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+	padding: 0;
+}
+div,
+p,
+ul,
+li,
+span,
+button,
+input,
+a,
+form,
+textarea {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.df {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.dif {
+	display: -webkit-inline-box;
+	display: -webkit-inline-flex;
+	display: -moz-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+.aic {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	   -moz-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.jcsb {
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	   -moz-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.jcc {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	   -moz-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.fww {
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.aifs {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	   -moz-box-align: start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
+}
+.aife {
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	   -moz-box-align: end;
+	    -ms-flex-align: end;
+	        align-items: flex-end;
+}
+.fdc {
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	   -moz-box-orient: vertical;
+	   -moz-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.jcfe {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	   -moz-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.trans {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.obj-cover img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+.obj-cont img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	-o-object-fit: contain;
+	   object-fit: contain;
+}
+.asfe {
+	-webkit-align-self: flex-end;
+	    -ms-flex-item-align: end;
+	        align-self: flex-end;
+}
+
+iframe {
+    max-width: 100%;
+}
+a {
+	-webkit-text-decoration-line: underline;
+	   -moz-text-decoration-line: underline;
+	        text-decoration-line: underline;
+	color: #E2E2E2;
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+button {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+a:hover {
+	text-decoration: none;
+}
+.title-l {
+	font-size: 52px;
+	line-height: 120%;
+	color: #868686;
+	font-weight: 400;
+}
+.title-l span {
+	color: #E2E2E2;
+	font-weight: 700;
+	line-height: 120%;
+}
+.title-m {
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 120%;
+}
+.title-m span {
+	color: #868686;
+}
+textarea:active,
+textarea:focus {
+	outline: none;
+}
+input[type=text],
+input[type=submit],
+textarea {
+	-webkit-appearance: none;
+}
+input {
+	border: 0;
+	outline: none;
+}
+.btn {
+	background: #32B81D;
+	padding: 14px;
+	width: 270px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 120%;
+	color: #E2E2E2;
+	border: 1px solid #32B81D;
+}
+.btn:hover {
+	background: #000;
+}
+.btn-sec {
+	border: 1px solid #E2E2E2;
+	background: none;
+}
+.btn-sec:hover {
+	background: #fff;
+	color: #000;
+	border-color: #fff;
+}
+.center {
+	text-align: center;
+}
+.hidden {
+	display: none;
+}
+
+/* -----------------------------Header---------------------------- */
+
+
+.header {
+	padding: 22px 0;
+	background: #141414;
+}
+.logo {
+	margin-right: 50px;
+	display: inline-block;
+}
+.header__menu a {
+	text-decoration: none;
+}
+.header__menu a:hover {
+	text-decoration: underline;
+}
+.header__soc {
+	display: inline-block;
+	text-decoration: none;
+}
+.header__soc:not(:last-child) {
+	margin-right: 16px;
+}
+.header__soc:hover svg {
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.header__soc:hover svg {
+	color: #fff;
+}
+.header__soc-wrap {
+	margin-right: 30px;
+}
+
+
+
+/* ---------------------main--------------------- */
+
+.main {
+	position: relative;
+	padding: 242px 0 81px;
+}
+.main::after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 685px;
+	height: 761px;
+	background: url('../img/main-r.png') no-repeat 0 0 / cover;
+}
+.main__wrap {
+	max-width: 630px;
+}
+.main .title-l {
+	margin-bottom: 50px;
+}
+.main__wrap p {
+	margin: 0 60px 50px 0;
+	font-size: 18px;
+}	
+.text {
+	position: relative;
+}
+.text::before {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.first-txt {
+	padding: 361px 0 286px;
+}
+.first-txt::before {
+	left: 0;
+	width: 585px;
+	height: 533px;
+	background: url('../img/lightning.png') no-repeat 0 0 / cover;
+}
+.first-txt .title-m {
+	max-width: 770px;
+}
+.ml-a {
+	margin-left: auto;
+}
+.second-txt {
+	padding: 110px 0 204px;
+}
+.second-txt .title-m {
+	max-width: 570px;
+}
+.second-txt::before {
+	right: 0;
+	width: 794px;
+	height: 478px;
+	background: url('../img/graph.png') no-repeat 0 0 / cover;
+}
+.third-txt {
+	padding: 123px 0 303px;
+}
+.third-txt .title-m {
+	max-width: 630px;
+}
+.third-txt::before {
+	left: 0;
+	width: 685px;
+	height: 375px;
+	background: url('../img/rac.png') no-repeat 0 0 / cover;
+}
