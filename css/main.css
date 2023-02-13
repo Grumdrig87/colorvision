@@ -463,3 +463,132 @@ input {
 .footer__bottom a {
 	opacity: 0.5;
 }
+.about__main .title-l {
+	margin-bottom: 36px;
+    font-size: 46px;
+}
+.about__main {
+	padding: 266px 0 198px;
+}
+.main__text p {
+	font-size: 16px;
+}
+.main__text p:not(:last-child) {
+	margin-bottom: 20px;
+}
+.text__info {
+	max-width: 631px;
+}
+.text__info p:not(:last-child) {
+	margin-bottom: 25px;
+}
+.text__info p {
+	font-size: 16px;
+	line-height: 155%;
+}
+.about__sec-txt {
+    padding: 202px 0 226px;
+}
+.about__sec-txt .image {
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+	width: 794px;
+	height: 680px;
+}
+.about__sec-txt .title-m {
+	margin-bottom: 36px;
+	font-size: 46px;
+}
+.about__trd-txt {
+    padding: 0 0 180px;
+}
+.about__trd-txt .ml-a {
+	max-width: 630px;
+}
+.about__trd-txt .title-m:not(:last-child),
+.about__trd-txt .text__info {
+	margin-bottom: 24px;
+}
+.about__trd-txt .title-m:first-child {
+	margin-bottom: 36px;
+	font-size: 46px;
+}
+.about__trd-txt .text__info p {
+	font-size: 16px;
+	line-height: 155%;
+	opacity: 0.5;
+}
+.about__trd-txt .image {
+	width: 685px;
+	height: 571px;
+}
+.text__block {
+	padding-bottom: 180px;
+}
+.text__block-wrap {
+	max-width: 970px;
+	margin: 0 auto;
+}
+.text__block-wrap p {
+	font-size: 16px;
+	line-height: 155%;
+}
+.text__block-wrap p:not(:last-child) {
+	margin-bottom: 24px;
+}
+.about__frth-txt {
+	padding: 0 0 180px;
+}
+.create__wrap {
+	max-width: 570px;
+}
+.create {
+	position: relative;
+	padding: 0 0 180px;
+}
+.create .image {
+	width: 745px;
+	height: 643px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.create__info {
+	margin-bottom: 24px;
+}
+.create__info .title-m {
+	font-size: 46px;
+	margin-bottom: 24px;
+}
+.create__info p:not(:last-child) {
+	margin-bottom: 24px;
+}
+.create__info p {
+	font-size: 16px;
+	line-height: 155%;
+}
+.create__img {
+	width: 70px;
+	height: 70px;
+	-webkit-border-radius: 50%;
+	   -moz-border-radius: 50%;
+	        border-radius: 50%;
+	overflow: hidden;
+	margin-right: 30px;
+}
+.create__card-txt {
+	width: 82.5%;
+	max-width: 470px;
+}
+.create__card-title {
+	font-size: 36px;
+	margin-bottom: 24px;
+	line-height: 120%;
+}
+.create__card-txt p {
+	opacity: 0.5;
+}
+.about__trd-txt .text__info {
+	max-width: 520px;
+}
