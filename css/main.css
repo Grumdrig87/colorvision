@@ -316,15 +316,13 @@ input {
 	position: relative;
 	padding: 242px 0 81px;
 }
-.main::after {
-	content: '';
+.main__img {
 	display: block;
 	position: absolute;
 	top: 0;
 	right: 0;
 	width: 685px;
 	height: 761px;
-	background: url('../img/main-r.png') no-repeat 0 0 / cover;
 }
 .main__wrap {
 	max-width: 630px;
@@ -340,8 +338,7 @@ input {
 .text {
 	position: relative;
 }
-.text::before {
-	content: '';
+.text .image {
 	display: block;
 	position: absolute;
 	top: 0;
@@ -350,11 +347,10 @@ input {
 	padding: 182px 0 286px;
 	margin-top: 177px;
 }
-.first-txt::before {
+.first-txt .image {
 	left: 0;
 	width: 585px;
 	height: 533px;
-	background: url('../img/lightning.png') no-repeat 0 0 / cover;
 }
 .first-txt .title-m {
 	max-width: 770px;
@@ -371,11 +367,10 @@ input {
 .second-txt .title-m {
 	max-width: 570px;
 }
-.second-txt::before {
+.second-txt .image {
 	right: 0;
 	width: 794px;
 	height: 478px;
-	background: url('../img/graph.png') no-repeat 0 0 / cover;
 }
 .third-txt {
 	padding: 123px 0 303px;
@@ -383,11 +378,10 @@ input {
 .third-txt .title-m {
 	max-width: 630px;
 }
-.third-txt::before {
+.third-txt .image {
 	left: 0;
 	width: 685px;
 	height: 375px;
-	background: url('../img/rac.png') no-repeat 0 0 / cover;
 }
 .fourth-txt {
 	padding: 22px 0 101px;
@@ -395,22 +389,19 @@ input {
 .fourth-txt .title-m {
 	max-width: 580px;
 }
-.fourth-txt::before {
+.fourth-txt .image {
 	left: 0;
 	margin: 0;
 	width: 454px;
 	height: 215px;
-	background: url('../img/mid-l.png') no-repeat 0 0 / cover;
 }
-.fourth-txt::after {
-	content: '';
+.fourth-txt .image-sec {
 	display: block;
 	position: absolute;
 	top: 0;
 	right: 0;
 	width: 467px;
 	height: 215px;
-	background: url('../img/mid-r.png') no-repeat 0 0 / cover;
 }
 .fifth-txt {
 	padding: 100px 0 90px;
